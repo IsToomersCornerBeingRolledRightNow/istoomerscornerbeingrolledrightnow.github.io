@@ -11,8 +11,10 @@ author: bootply.com
 
 html,body {
     height:100%;
-    background:center no-repeat fixed url('/assets/toomersCornerRolledAndBlurred.jpg');
-    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-image:url('/assets/toomersCornerRolledAndBlurred.jpg');
+    background-size:cover;
 }
 
 .icon-bar {
