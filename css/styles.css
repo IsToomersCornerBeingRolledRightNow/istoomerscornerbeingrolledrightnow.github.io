@@ -42,35 +42,35 @@ a.list-group-item.active,[class*='-info'] {
     color:#fff;
 }
 
-#section1 {
+#heroSection {
     /*background-color: #168ccc;*/
     color:#fff;
     min-height:100%;
 }
 
-#section2 {
-    background-color: #e5e5ef;
+#automaticSection {
+    background-color: #fff;
     color:#686868;
 }
 
-#section3 {
+#authenticSection {
     background-color: #168ccc;
     color:#ddd;
 }
 
-#section4 {
-    background-color: #fff;
+#auburnSection {
+    background-color: #e5e5ef;
     color:#444;
 }
 
-#section5,#section7,#section7 a {
+#socialSection, #socialSection a {
     color:#f5f5f5;
 }
 
-#section6 {
+/*#section6 {
     background-color: #168ccc;
     color:#ddd;
-}
+}*/
 
 footer {
     background-color:#494949;
