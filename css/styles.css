@@ -46,6 +46,7 @@ a.list-group-item.active,[class*='-info'] {
     /*background-color: #168ccc;*/
     color:#fff;
     min-height:100%;
+    overflow:hidden;
 }
 
 #automaticSection {
