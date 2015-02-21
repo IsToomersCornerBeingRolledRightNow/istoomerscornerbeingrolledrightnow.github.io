@@ -61,13 +61,17 @@ a.list-group-item.active,[class*='-info'] {
     color:#fff;
 }
 
+section {
+    padding-bottom:1em;
+}
+
 #heroSection {
     /*background-color: #168ccc;*/
     color:#fff;
     overflow:hidden;
 }
 
-#automaticSection {
+#automaticSection, #teamSection {
     background-color: #fff;
     color:#686868;
 }
