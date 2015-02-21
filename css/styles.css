@@ -52,6 +52,8 @@ html,body {
 
 .go-to-app-btn {
     margin-top: 4em;
+    width:100%;
+    overflow:hidden;
 }
 
 a.list-group-item.active,[class*='-info'] {
