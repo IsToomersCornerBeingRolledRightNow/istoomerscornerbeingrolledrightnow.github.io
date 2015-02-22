@@ -147,5 +147,9 @@ don't bring me down, [Bruce](http://en.wikipedia.org/wiki/Bruce_Pearl)!)
 
 We could grab the appropriate dot-com and pay the server costs ourselves,
 but maybe you want your logo on our site? Email Steven at
-<steven.clontz+toomers@gmail.com> if you'd like to support the project
-by covering costs.
+[steven.clontz+toomers@gmail.com](mailto:steven.clontz+toomers@gmail.com)
+if you'd like to support the project by covering costs.
+
+## License
+
+All our projects within this organization are MIT licensed. Go crazy, kids.
