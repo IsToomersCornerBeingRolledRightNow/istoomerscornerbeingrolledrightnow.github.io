@@ -48,9 +48,9 @@ of more or less horizontal (within about 10 degrees of true horizontal) gradient
 The number of horizontal gradients is the number we use to determine whether
 Toomer's Corner has been rolled. Our reasoning for using this number
 is that strips of TP hanging down from trees and lamp posts
-(and everything really) will give us a large number of horizontal gradients.
-At least this seems to be the case - our testing generated no false
-positives. However, we'll need to wait until the next big ballgame for
+(and everything really) will give us a large number of horizontal gradients because there
+are a large number of vertical edges. At least this seems to be the case - our testing 
+generated no false positives. However, we'll need to wait until the next big ballgame for
 more rigorous field testing.
 
 ## theTinyAppThatTweetsAPhotoWhenToomersIsRolled
