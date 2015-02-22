@@ -102,6 +102,13 @@ solution like Rails. Using the Twitter RubyGem again, we can authenticate
 and pull our latest tweet on the backend, and use a simple ERB template
 to display the appropriate response.
 
+The hardest puzzle here was how to circumvent Twitter's rate limit, without
+adopting a heavyweight/redundant database in our application.
+Enter the flat-file persentence pattern: on each request, we check to see
+if `.twitter_cache` was written within the last 75 seconds. If not,
+then we make a new request to the Twitter API, which we write to our
+cache file for use within the last 75 seconds. ActiveRecord, eat your heart out.
+
 Since the Twitter API sucks, we provided our own API for the
 cornucopia of applications which could use this valuable data:
 <https://istoomerscornerbeingrolled.herokuapp.com/api/>. Just remember
