@@ -6,8 +6,7 @@ A [#SmartCityHack](http://www.global.datafest.net/) project rolled by
 [Steven](http://github.com/StevenClontz),
 and [Zack!](http://github.com/ZSarver)
 
-Abstract: using a live feed provided by the City of Auburn,
-<http://www.auburnalabama.org/mvc/cams/City-Cameras/Toomer's-Corner>,
+Abstract: using a [live feed][5] provided by the City of Auburn,
 we can programmatically determine if Auburn Tigers fans have begun
 [rolling Toomer's Corner](http://en.wikipedia.org/wiki/Auburn_University_traditions#Toomer.27s_Corner).
 This program tweets at
@@ -15,6 +14,8 @@ This program tweets at
 which is used by our web app at
 <https://istoomerscornerbeingrolled.herokuapp.com/> to display
 either "No..." or "Yes!".
+
+[5]: http://www.auburnalabama.org/mvc/cams/City-Cameras/Toomer's-Corner
 
 ## A Picture Is Worth a 1000 Words
 
