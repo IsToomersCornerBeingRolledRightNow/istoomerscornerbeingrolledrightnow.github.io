@@ -16,6 +16,10 @@ which is used by our web app at
 <https://istoomerscornerbeingrolled.herokuapp.com/> to display
 either "No..." or "Yes!".
 
+## A Picture Is Worth a 1000 Words
+
+![sketch of our stack](https://istoomerscornerbeingrolledrightnow.github.io/assets/appStackSketch.svg)
+
 We used the [friday](http://hackage.haskell.org/package/friday) and 
 [friday-devil](http://hackage.haskell.org/package/friday-devil) Haskell packages to do 
 image processing. Both in turn depend on the C library 
