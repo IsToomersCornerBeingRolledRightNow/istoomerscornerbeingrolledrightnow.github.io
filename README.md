@@ -21,6 +21,10 @@ either "No..." or "Yes!".
 
 ![sketch of our stack](https://istoomerscornerbeingrolledrightnow.github.io/assets/appStackSketch.svg)
 
+![unrolled corner](http://istoomerscornerbeingrolledrightnow.github.io/assets/roll0.jpg)
+
+![rolled corner](http://istoomerscornerbeingrolledrightnow.github.io/assets/roll3.jpg)
+
 ## theAppThatLetsUsProcessToomersCornerBeingRolled
 
 The core of our project is
