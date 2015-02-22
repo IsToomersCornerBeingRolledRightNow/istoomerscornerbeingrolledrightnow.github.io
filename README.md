@@ -15,3 +15,10 @@ This program tweets at
 which is used by our web app at
 <https://istoomerscornerbeingrolled.herokuapp.com/> to display
 either "No..." or "Yes!".
+
+We used the [friday](http://hackage.haskell.org/package/friday) and 
+[friday-devil](http://hackage.haskell.org/package/friday-devil) Haskell packages to do 
+image processing. Both in turn depend on the C library 
+[DevIL (Developer's Image Library)](http://openil.sourceforge.net/).
+
+First we have a script that grabs stills from the live feed.
