@@ -113,7 +113,7 @@ cache file for use within the last 75 seconds. ActiveRecord, eat your heart out.
 Since the Twitter API sucks, we provided our own API for the
 cornucopia of applications which could use this valuable data:
 <https://istoomerscornerbeingrolled.herokuapp.com/api/>. Just remember
-to check that `data["stale"] == False` before displaying an outdated
+to check that `data["stale"] == false` before displaying an outdated
 message!
 
 
