@@ -18,4 +18,4 @@ either "No..." or "Yes!".
 
 ## A Picture Is Worth a 1000 Words
 
-![sketch of our stack](assets/appStackSketch.svg)
+![sketch of our stack](https://istoomerscornerbeingrolledrightnow.github.io/assets/appStackSketch.svg)
