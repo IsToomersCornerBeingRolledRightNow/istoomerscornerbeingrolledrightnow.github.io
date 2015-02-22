@@ -22,7 +22,7 @@ html,body {
     top: 0;
     left: 0;
     z-index: -1;
-    background-image:url('/assets/toomersCornerRolledAndBlurred.jpg');
+    background-image:url('/assets/toomersAtNight.jpg');
     background-repeat:no-repeat;
     background-position: center center;
     /* background-attachment: fixed; removed for Android */
@@ -39,6 +39,7 @@ html,body {
 .navbar a, .nav>li>a:hover {
     color: #fff;
     background-color: transparent;
+    text-shadow: 2px 2px #000;
 }
 
 .v-center {
@@ -69,6 +70,7 @@ section {
     /*background-color: #168ccc;*/
     color:#fff;
     overflow:hidden;
+    text-shadow: 2px 2px #000;
 }
 
 #automaticSection, #teamSection {
@@ -92,6 +94,7 @@ section {
 
 #socialSection, #socialSection a {
     color:#f5f5f5;
+    text-shadow: 2px 2px #000;
 }
 
 footer {
