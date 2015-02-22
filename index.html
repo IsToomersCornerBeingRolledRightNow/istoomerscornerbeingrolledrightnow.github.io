@@ -32,11 +32,11 @@
 
 <a href="https://github.com/istoomerscornerbeingrolledrightnow"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
 
-<section class="container-fluid" id="heroSection">
-    <h1 class="text-center v-center">
+<section class="container-fluid text-center" id="heroSection">
+    <h1 class="v-center">
       Is Toomer's Corner <br/> Being Rolled Right Now?
     </h1>
-    <div class="text-center go-to-app-btn">
+    <div class="go-to-app-btn">
         <a class="btn btn-primary btn-lg"
            href="https://istoomerscornerbeingrolled.herokuapp.com/">
           <i class="fa fa-globe"></i>
@@ -48,8 +48,14 @@
           Twitter
         </a>
         <br/>&nbsp;<br/>
-        <i style="font-size:120px" class="fa fa-tree fa-5x"></i>&nbsp;
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-2 col-xs-4">
         <i style="font-size:120px" class="fa fa-tree fa-5x"></i>
+      </div>
+      <div class="col-xs-4">
+        <i style="font-size:120px" class="fa fa-tree fa-5x"></i>
+      </div>
     </div>
 </section>
 
@@ -59,9 +65,10 @@
         <h1>Automatic</h1>
         <br>
     <p class="lead">
-      Using Fourier transforms or some crap like that, we're able to
-      use footage of Toomer's Corner to automatically.. wait.
-      We're able to to autoMAGICally detect whenever Toomer's Corner is
+      Using Fourier transforms or some crap like that
+      (actually Canny edge detection), we're able to
+      use footage of Toomer's Corner to automatically.. wait...
+      autoMAGICally detect whenever Toomer's Corner is
       rolled. Sure you could just guess by who wins a football game
       but hey, what fun is that? Also here is a picture of a camera.
     </p>
@@ -79,8 +86,11 @@
     <p class="lead">
       Our code is fed with 100% free-range text editors, made with love
       in good old Auburn, Alabama by four math PhDs. Or one math PhD
-      and three PhD candidates. Also we're probably gonna use Haskell
-      for pure functional programming goodness.
+      and three PhD candidates. Our image detection is based on the
+      Haskell functional programming language, while our frontend is
+      an mix of Ruby and the completely unrecommended TPBaaS
+      (Twitter-Powered-Backend-as-a-Service) programming pattern. And a
+      little Bash scripting to glue it all together.
     </p>
         <br/>
         <i style="font-size:120px" class="fa fa-file-code-o fa-5x"></i>
@@ -109,18 +119,27 @@
   </div>
 </section>
 
-<section class="container-fluid" id="socialSection">
-  <h1 class="text-center">Follow our Myriad Social Media Accounts</h1>
-    <div class="text-center">
-      <!--fontawesome icons-->
-       <a href="https://github.com/istoomerscornerbeingrolledrightnow"><i class="fa fa-github fa-4x"></i></a>
-       &nbsp;
-       <a href="https://twitter.com/IsToomersRolled"><i class="fa fa-twitter fa-4x"></i></a>
+<section class="container-fluid text-center" id="socialSection">
+  <h1>Follow our Myriad Social Media Accounts</h1>
+  <div class="row">
+    <div class="col-span-6">
+      <a href="https://github.com/istoomerscornerbeingrolledrightnow">
+        <i class="fa fa-github fa-4x"></i>
+        @istoomerscornerbeingrolledrightnow
+      </a>
+    </div>
+    <div class="col-span-6">
+      <a href="https://twitter.com/IsToomersRolled">
+        <i class="fa fa-twitter fa-4x"></i>
+        @IsToomersRolled
+      </a>
+    </div>
   </div>
 </section>
 
 <section class="container-fluid text-center" id="teamSection">
-  <h1>I just... I can't even... blame these guys</h1>
+  <h1>I just... I can't even...</h1>
+  <h2>`git blame` these guys</h2>
   <div class="row">
     <div class="col-xs-12 col-sm-6">
       <h3>Daniel Brice</h3>
@@ -189,6 +208,19 @@
       </p>
     </div>
   </div>
+</section>
+
+<section id="readmeSection" class="container-fluid text-center">
+  <h3>Okay seriously, what's going on here?</h3>
+  <p class="lead">
+    Fair enough. We stuck the full technical details on our
+    <a href="https://github.com/istoomerscornerbeingrolledrightnow/istoomerscornerbeingrolledrightnow.github.io">
+      README page
+    </a>. By the way, we are open-source, so please feel free to contribute!
+  </p>
+</section>
+
+<section id="madeForSection" class="container-fluid text-center">
   <div>
     <h3>
       Made for the AU
@@ -203,6 +235,12 @@
         http://www.global.datafest.net/cities/auburn-us
       </a>
     </p>
+  </div>
+  <div>
+    Press: contact Steven at
+    <a href="mailto:steven.clontz+toomers@gmail.com">
+      steven.clontz+toomers@gmail.com
+    </a>
   </div>
 </section>
 

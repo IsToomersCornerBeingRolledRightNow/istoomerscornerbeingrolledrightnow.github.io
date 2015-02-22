@@ -76,12 +76,16 @@ section {
     color:#686868;
 }
 
-#authenticSection {
+#authenticSection, #readmeSection {
     background-color: #168ccc;
     color:#ddd;
 }
 
-#auburnSection {
+#readmeSection a, #readmeSection a:hover, #readmeSection a:visited {
+    color:#fff;
+}
+
+#auburnSection, #madeForSection {
     background-color: #e5e5ef;
     color:#444;
 }
@@ -89,11 +93,6 @@ section {
 #socialSection, #socialSection a {
     color:#f5f5f5;
 }
-
-/*#section6 {
-    background-color: #168ccc;
-    color:#ddd;
-}*/
 
 footer {
     background-color:#494949;
