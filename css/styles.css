@@ -32,6 +32,10 @@ html,body {
       background-size: cover;
 }
 
+.img-responsive {
+    margin-bottom: 1em;
+}
+
 .icon-bar {
     background-color:#fff;
 }
