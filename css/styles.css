@@ -101,6 +101,11 @@ section {
     text-shadow: 2px 2px #000;
 }
 
+.svg-shadow {
+    -webkit-filter: drop-shadow( 2px 2px #000 );
+            filter: drop-shadow( 2px 2px #000 ); /* Same syntax as box-shadow */
+}
+
 footer {
     background-color:#494949;
     color:#ddd;
