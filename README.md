@@ -121,38 +121,14 @@ to check that `data["stale"] == false` before displaying an outdated
 message!
 
 
-## Future Work
+## Principal Component Analysis
 
-### Ideas for additional analytics to determine celebrations by the Auburn Family
+Following our work at the regional competition, we've developed a prototype
+to analyze footage of Toomer's Corner using Principal Component Analysis
+rather than counting horizontal gradient vectors. Information on that
+project may be found at its
+[README page](https://github.com/IsToomersCornerBeingRolledRightNow/principalComponentAnalysisViaSingularValueDecomposition).
 
-Right now we're using a single simple metric. One conjecture which may improve
-our detection process: we believe the amount of "noise" within the feed
-should correlate with the amount of activity at Toomer's. In particular,
-if there are a lot of pedestrians around, something's probably going on, and
-we should probably inform the internet.
-
-Another angle is to use Twitter analytics: if #WarEagle is trending, that
-might be a good indicator that something's about to go down.
-
-### Hosting in the Cloud
-
-The MVP can simply use our whatever laptop is lying around to track the feed.
-We'd like to host this application in the cloud (maybe Amazon Web Services?)
-so this can run in perpetuity.
-
-### More rigorous field testing
-
-Auburn Football faces off against Louisville on September 5 in Atlanta.
-With any luck, we'll get our first real field test then. (If not before...
-don't bring me down, [Bruce](http://en.wikipedia.org/wiki/Bruce_Pearl)!)
-
-
-## Sponsorship
-
-We could grab the appropriate dot-com and pay the server costs ourselves,
-but maybe you want your logo on our site? Email Steven at
-[steven.clontz+toomers@gmail.com](mailto:steven.clontz+toomers@gmail.com)
-if you'd like to support the project by covering costs.
 
 ## License
 
